@@ -18,12 +18,12 @@ npm i dile-checkbox
 
 ### Properties
 
-- checked: Boolean, defines the checkbox state.
-- disabled: Boolean, mark checkbox as disabled.
+- **checked**: Boolean, defines the checkbox state.
+- **disabled**: Boolean, mark checkbox as disabled.
 
 ### Custom events
 
-Every time the checkbox changes emits a eit-checkbox-changed event. The checkbox current state is received in the handler usign the event object "detail" property.
+- **eit-checkbox-changed**: Every time the checkbox changes emits a eit-checkbox-changed event. The checkbox current state is received in the handler usign the event object "detail" property.
 
 ### CSS Custom Properties
 
