@@ -1,11 +1,11 @@
 {
   "name": "dile-checkbox",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Webcomponent dile-checkbox following open-wc recommendations",
-  "author": "dile-checkbox",
-  "homepage": "https://github.com/open-wc/open-wc/",
+  "author": "@midesweb",
+  "homepage": "https://github.com/Polydile/dile-checkbox",
   "license": "MIT",
-  "repository": "https://github.com/open-wc/open-wc/",
+  "repository": "https://github.com/Polydile/dile-checkbox",
   "scripts": {
     "start": "owc-dev-server --app-index demo/index.html --open --watch"
   },
