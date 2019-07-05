@@ -30,7 +30,7 @@ export class DileCheckbox extends LitElement {
     }
     .checkbox {
       display: flex;
-      background-color: var(--eit-checkbox-checked-color, #30a030);
+      background-color: var(--dile-checkbox-checked-color, #30a030);
       border-radius: 4px;
       width: 20px;
       height: 20px;
@@ -40,20 +40,20 @@ export class DileCheckbox extends LitElement {
       margin-right: 10px;
     }
     .isUnchecked {
-      background-color: var(--eit-checkbox-unchecked-color, #ddd);
+      background-color: var(--dile-checkbox-unchecked-color, #ddd);
     }
     path[fill="none"], .checked path[fill="none"] {
       fill: transparent;
     }
     path {
-      fill: var(--eit-checkbox-fill-color, #fff);
+      fill: var(--dile-checkbox-fill-color, #fff);
     }
     .checked path {
-      fill: var(--eit-checkbox-unchecked-fill-color, #fff);
+      fill: var(--dile-checkbox-unchecked-fill-color, #fff);
     }
     .label {
-      font-weight: var(--eit-checkbox-font-weight, normal);
-      color: var(--eit-checkbox-label-color, #303030);
+      font-weight: var(--dile-checkbox-font-weight, normal);
+      color: var(--dile-checkbox-label-color, #303030);
     }
     `;
   }
@@ -79,7 +79,7 @@ export class DileCheckbox extends LitElement {
       return;
     }
     this.checked = !this.checked;
-    this.dispatchEvent(new CustomEvent('eit-checkbox-changed', {
+    this.dispatchEvent(new CustomEvent('dile-checkbox-changed', {
       bubbles: true,
       composed: true,
       detail: this.checked

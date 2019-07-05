@@ -8,12 +8,12 @@ render(html`
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .customized {
-  --eit-checkbox-checked-color: #006;
-  --eit-checkbox-unchecked-color: #f66;
-  --eit-checkbox-fill-color: #fcc;
-  --eit-checkbox-unchecked-fill-color: #666;
-  --eit-checkbox-label-color: #c57;
-  --eit-checkbox-font-weight: bold;
+  --dile-checkbox-checked-color: #006;
+  --dile-checkbox-unchecked-color: #f66;
+  --dile-checkbox-fill-color: #fcc;
+  --dile-checkbox-unchecked-fill-color: #666;
+  --dile-checkbox-label-color: #c57;
+  --dile-checkbox-font-weight: bold;
   font-size: 1.5em;
 }
 </style>

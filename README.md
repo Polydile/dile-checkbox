@@ -23,7 +23,7 @@ npm i dile-checkbox
 
 ### Custom events
 
-- **eit-checkbox-changed**: Every time the checkbox changes emits a eit-checkbox-changed event. The checkbox current state is received in the handler usign the event object "detail" property.
+- **dile-checkbox-changed**: Every time the checkbox changes emits a dile-checkbox-changed event. The checkbox current state is received in the handler usign the event object "detail" property.
 
 ### CSS Custom Properties
 
@@ -32,12 +32,12 @@ You can customize it using CSS Custom Properties.
 ```
 <style>
 .customized {
-  --eit-checkbox-checked-color: #006;
-  --eit-checkbox-unchecked-color: #f66;
-  --eit-checkbox-fill-color: #fcc;
-  --eit-checkbox-unchecked-fill-color: #666;
-  --eit-checkbox-label-color: #c57;
-  --eit-checkbox-font-weight: bold;
+  --dile-checkbox-checked-color: #006;
+  --dile-checkbox-unchecked-color: #f66;
+  --dile-checkbox-fill-color: #fcc;
+  --dile-checkbox-unchecked-fill-color: #666;
+  --dile-checkbox-label-color: #c57;
+  --dile-checkbox-font-weight: bold;
 }
 </style>
 
