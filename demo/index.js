@@ -1,5 +1,5 @@
 import { html, render } from 'lit-html';
-import '../src/dile-checkbox.js';
+import '../dile-checkbox.js';
 
 const title = 'test';
 render(html`

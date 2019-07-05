@@ -1,6 +1,6 @@
 import { html, css, LitElement } from 'lit-element';
 
-export default class DileCheckbox extends LitElement {
+export class DileCheckbox extends LitElement {
   
   static get properties() {
     return {
@@ -95,3 +95,6 @@ export default class DileCheckbox extends LitElement {
   }
 
 }
+
+
+window.customElements.define('dile-checkbox', DileCheckbox);

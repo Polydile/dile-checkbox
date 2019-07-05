@@ -1,6 +1,6 @@
 {
   "name": "dile-checkbox",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Webcomponent dile-checkbox following open-wc recommendations",
   "author": "dile-checkbox",
   "homepage": "https://github.com/open-wc/open-wc/",
@@ -9,6 +9,7 @@
   "scripts": {
     "start": "owc-dev-server --app-index demo/index.html --open --watch"
   },
+  "main": "dile-checkbox.js",
   "dependencies": {
     "lit-html": "^1.0.0",
     "lit-element": "^2.0.1"
