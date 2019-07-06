@@ -2,6 +2,8 @@
 
 Web Component to create a customized checkbox input interface, based on LitElement.
 
+Let's [go to DEMOS page](https://dile-checkbox.polydile.com)!
+
 ## Installation
 ```bash
 npm i dile-checkbox
