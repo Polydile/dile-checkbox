@@ -7,12 +7,11 @@ import readme from '../README.md';
 
 storiesOf('dile-checkbox', module)
   .addDecorator(withKnobs)
-  .add('Documentation', () => withClassPropertiesKnobs(DileCheckbox), { notes: { markdown: readme } })
   .add(
     'Default checkbox',
     () => html`
       <dile-checkbox>Element label</dile-checkbox>
-    `,
+      `,
   )
   .add(
     'Styled checkbox',
@@ -29,10 +28,11 @@ storiesOf('dile-checkbox', module)
         }
         </style>
       <dile-checkbox class="customized">Mark as danger!</dile-checkbox>
-    `,
+      `,
   ).add(
     'Disabled checkbox',
     () => html`
       <dile-checkbox disabled>Disabled checkbox</dile-checkbox>
-    `,
-  );
+      `,
+  )
+  .add('Documentation', () => withClassPropertiesKnobs(DileCheckbox), { notes: { markdown: readme } });
