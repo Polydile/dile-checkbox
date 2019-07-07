@@ -31,7 +31,7 @@ npm i dile-checkbox
 
 You can customize it using CSS Custom Properties.
 
-ustom property | Description | Default
+Custom property | Description | Default
 ----------------|-------------|---------
 --dile-checkbox-checked-color | Checked color for check control | #30a030
 --dile-checkbox-unchecked-color | Unchecked color for check control | #ddd
