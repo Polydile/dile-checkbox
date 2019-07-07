@@ -31,6 +31,16 @@ npm i dile-checkbox
 
 You can customize it using CSS Custom Properties.
 
+ustom property | Description | Default
+----------------|-------------|---------
+--dile-checkbox-checked-color | Checked color for check control | #30a030
+--dile-checkbox-unchecked-color | Unchecked color for check control | #ddd
+--dile-checkbox-fill-color | Fill color for the check control | #fff
+--dile-checkbox-unchecked-fill-color | Checked color for check control when is in unchecked status| #fff
+--dile-checkbox-label-color | label regular color | #303030
+--dile-checkbox-label-disabled-color | Label color for disabled status | #303030
+--dile-checkbox-font-weight | Font weight for te label | normal
+
 ```
 <style>
 .customized {
@@ -40,6 +50,7 @@ You can customize it using CSS Custom Properties.
   --dile-checkbox-unchecked-fill-color: #666;
   --dile-checkbox-label-color: #c57;
   --dile-checkbox-font-weight: bold;
+  --dile-checkbox-label-disabled-color: #ddd;
 }
 </style>
 

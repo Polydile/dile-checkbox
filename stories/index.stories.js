@@ -24,6 +24,7 @@ storiesOf('dile-checkbox', module)
           --dile-checkbox-unchecked-fill-color: #666;
           --dile-checkbox-label-color: #c57;
           --dile-checkbox-font-weight: bold;
+          --dile-checkbox-label-disabled-color: #ddd;
           font-size: 1.5em;
         }
         </style>

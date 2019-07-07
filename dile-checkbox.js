@@ -55,6 +55,10 @@ export class DileCheckbox extends LitElement {
       font-weight: var(--dile-checkbox-font-weight, normal);
       color: var(--dile-checkbox-label-color, #303030);
     }
+    .disabled .label{
+      color: var(--dile-checkbox-label-disabled-color, #303030);
+    
+    }
     `;
   }
 
