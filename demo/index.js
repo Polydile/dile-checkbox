@@ -22,5 +22,18 @@ render(html`
 <dile-checkbox checked class="customized">Mark as urgent</dile-checkbox>
 <hr>
 <dile-checkbox disabled>Checkbox disabled</dile-checkbox>
-
+<hr>
+<style>
+.big {
+  --dile-checkbox-size: 32px;
+}
+</style>
+<dile-checkbox class="big">Big checkbox!!</dile-checkbox>
+<style>
+.small {
+  --dile-checkbox-size: 16px;
+}
+</style>
+<br>
+<dile-checkbox class="small">Small checkbox!!</dile-checkbox>
 `, document.querySelector('#demo'));

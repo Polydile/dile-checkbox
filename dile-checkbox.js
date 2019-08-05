@@ -32,8 +32,8 @@ export class DileCheckbox extends LitElement {
       display: flex;
       background-color: var(--dile-checkbox-checked-color, #30a030);
       border-radius: 4px;
-      width: 20px;
-      height: 20px;
+      width: var(--dile-checkbox-size, 20px);
+      height: var(--dile-checkbox-size, 20px);
       line-height: 0;
       align-items: center;
       justify-content: center;
@@ -50,6 +50,11 @@ export class DileCheckbox extends LitElement {
     }
     .checked path {
       fill: var(--dile-checkbox-unchecked-fill-color, #fff);
+    }
+    svg {
+      width: var(--dile-checkbox-size, 20px);
+      height: var(--dile-checkbox-size, 20px);
+      line-height: var(--dile-checkbox-size, 20px);
     }
     .label {
       font-weight: var(--dile-checkbox-font-weight, normal);
@@ -92,10 +97,10 @@ export class DileCheckbox extends LitElement {
 
 
   get checkedIcon() {
-    return html`<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>`;
   }
   get unCheckedIcon() {
-    return html`<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>`;
+    return html`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>`;
   }
 
 }

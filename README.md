@@ -40,7 +40,7 @@ Custom property | Description | Default
 --dile-checkbox-label-color | label regular color | #303030
 --dile-checkbox-label-disabled-color | Label color for disabled status | #303030
 --dile-checkbox-font-weight | Font weight for te label | normal
-
+--dile-checkbox-size | Checkbox size | 20px
 ```
 <style>
 .customized {

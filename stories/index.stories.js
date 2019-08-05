@@ -30,10 +30,29 @@ storiesOf('dile-checkbox', module)
         </style>
       <dile-checkbox class="customized">Mark as danger!</dile-checkbox>
       `,
-  ).add(
+  )
+  .add(
     'Disabled checkbox',
     () => html`
       <dile-checkbox disabled>Disabled checkbox</dile-checkbox>
       `,
+  )
+  .add(
+    'Sized checkboxes',
+    () => html`
+      <style>
+        .big {
+          --dile-checkbox-size: 32px;
+        }
+        </style>
+        <dile-checkbox class="big">Big checkbox!!</dile-checkbox>
+        <style>
+        .small {
+          --dile-checkbox-size: 16px;
+        }
+      </style>
+      <br>
+      <dile-checkbox class="small">Small checkbox!!</dile-checkbox>
+    `,
   )
   .add('Documentation', () => withClassPropertiesKnobs(DileCheckbox), { notes: { markdown: readme } });
