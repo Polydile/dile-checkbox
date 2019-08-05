@@ -34,7 +34,7 @@ You can customize it using CSS Custom Properties.
 Custom property | Description | Default
 ----------------|-------------|---------
 --dile-checkbox-checked-color | Checked color for check control | #30a030
---dile-checkbox-unchecked-color | Unchecked color for check control | #ddd
+--dile-checkbox-unchecked-color | Unchecked color for check control | #ccc
 --dile-checkbox-fill-color | Fill color for the check control | #fff
 --dile-checkbox-unchecked-fill-color | Checked color for check control when is in unchecked status| #fff
 --dile-checkbox-label-color | label regular color | #303030

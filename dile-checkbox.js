@@ -40,7 +40,7 @@ export class DileCheckbox extends LitElement {
       margin-right: 10px;
     }
     .isUnchecked {
-      background-color: var(--dile-checkbox-unchecked-color, #ddd);
+      background-color: var(--dile-checkbox-unchecked-color, #ccc);
     }
     path[fill="none"], .checked path[fill="none"] {
       fill: transparent;
