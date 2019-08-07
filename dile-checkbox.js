@@ -6,6 +6,7 @@ export class DileCheckbox extends LitElement {
     return {
       checked: { type: Boolean },
       disabled: { type: Boolean },
+      hasInner: { type: Boolean },
     };
   }
 
@@ -37,7 +38,6 @@ export class DileCheckbox extends LitElement {
       line-height: 0;
       align-items: center;
       justify-content: center;
-      margin-right: 10px;
     }
     .isUnchecked {
       background-color: var(--dile-checkbox-unchecked-color, #ccc);
@@ -57,16 +57,19 @@ export class DileCheckbox extends LitElement {
       line-height: var(--dile-checkbox-size, 20px);
     }
     .label {
+      margin-left: 10px;
       font-weight: var(--dile-checkbox-font-weight, normal);
       color: var(--dile-checkbox-label-color, #303030);
     }
     .disabled .label{
       color: var(--dile-checkbox-label-disabled-color, #303030);
-    
     }
     `;
   }
 
+  firstUpdated() {
+    this.hasInner = (this.innerHTML.trim().length) ? true : false;
+  }
   render() {
     return html`
       <div @click="${this.doClick}" class="${this.disabled ? 'disabled' : ''}">
@@ -76,9 +79,13 @@ export class DileCheckbox extends LitElement {
             : this.unCheckedIcon
           }
         </span>
-        <span class="label">
-          <slot></slot>
-        </span>
+        ${this.hasInner
+          ? html `
+            <span class="label">
+              <slot></slot>
+            </span>`
+          : ''
+        } 
       </div>
     `;
   }

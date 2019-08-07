@@ -23,6 +23,8 @@ render(html`
 <hr>
 <dile-checkbox disabled>Checkbox disabled</dile-checkbox>
 <hr>
+<dile-checkbox></dile-checkbox>
+<hr>
 <style>
 .big {
   --dile-checkbox-size: 32px;
