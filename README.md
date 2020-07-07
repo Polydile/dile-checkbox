@@ -1,3 +1,7 @@
+# Moved
+
+**This package has moved** and is now available at [@dile/dile-checkbox](https://github.com/Polydile/dile-components). Please update your dependencies. This repository is no longer maintained.
+
 # \<dile-checkbox>
 
 Web Component to create a customized checkbox input interface, based on LitElement.
