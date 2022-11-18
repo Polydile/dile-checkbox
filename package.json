@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "owc-dev-server": "^1.0.0",
-    "@open-wc/demoing-storybook": "^0.2.0"
+    "@open-wc/demoing-storybook": "^2.4.7"
   },
   "keywords": [
     "LitElement",
